@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Login Form Javascript</title>
+</head>
+<body>
+    <div class="container">
+        <form id="form">
+            <div class="title">
+             Login Form
+            </div>
+
+            <div class="form-control">
+                <label for="text">Username</label>
+                <i class="fas fa-user"></i>
+                <input type="text" placeholder="Sifaw Bxumezough" name="username" id ="username" >
+                <i class="fas fa-exclamation-circle failure-icon"></i>
+                <i class="far fa-check-circle success-icon"></i>
+                <!-- <small class="error"></small> -->
+                <div class="error"></div>
+
+            </div>
+
+            <div class="form-control">
+                <label for="email">Email</label>
+                <i class="fas fa-envelope"></i>
+                <input type="text" placeholder="bxumezough22-23@gmail.com" name="email"  id="email" >
+                <i class="fas fa-exclamation-circle failure-icon"></i>
+                <i class="far fa-check-circle success-icon"></i>
+                <div class="error"></div>
+                <!-- <small class="error"></small> -->
+            </div>
+
+            <div class="form-control">
+                <label for="password">Password</label>
+                <i class="fas fa-lock"></i>
+                <input type="password" placeholder="Enter Your Password" name="password"  id ="password">
+                <i class="fas fa-exclamation-circle failure-icon"></i>
+                <i class="far fa-check-circle success-icon"></i>
+                <!-- <small class="error"></small> -->
+                <div class="error"></div>
+
+            </div>
+
+            <button type="submit" id="submit">Submit</button>
+
+        
+        </form>
+
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

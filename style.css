@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0; 
+
+}
+html,body {
+    height: 100%;
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+
+}
+/* 
+
+
+
+.login-form-header {
+    background-color: #5A38FD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-log {
+    padding: 20px 20px;
+} */
+
+.container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+form {
+    max-width: 400px;
+    height: 40vh;
+    padding: 60px;
+    background-color: #FFFFFF;
+    filter: drop-shadow(4px 4px 4px rgb(0, 0, 0,0.25));
+    border-radius: 8px;
+
+}
+.title
+{
+    font-size: 36px;
+    font-weight: bold;
+    /* margin-bottom: 20px; */
+    padding: 20px  100px;
+    border-radius: 8px;
+    background-color: #5A38FD;
+}
+.form-control {
+    margin-bottom: 15px;
+    position :relative;
+}
+
+form .form-control label {
+    display: block;
+    margin-bottom:5px ;
+}
+
+form .form-control input {
+    width: 82%;
+    border-radius: 8px;
+    height: 35px;
+    outline: none;
+    border : 2px solid rgb(121, 121, 121 , 0.63);
+    padding: 0px 30px;
+
+}
+form .form-control input:focus {
+    border: 2px solid #191919;
+
+}
+
+
+.form-control i {
+    position: absolute;
+    padding: 10px;
+}
+
+.success-icon, .failure-icon {
+    right: 0;
+    opacity: 0;
+}
+
+.failure-icon {
+    color: red;
+}
+.success-icon {
+    color: green;
+}
+.form-control .error {
+    color: red;
+    font-size: 15px;
+    /* font-size: 16px; */
+}
+button {
+    width: 100%;
+    cursor: pointer;
+    border-radius: 6px;
+    border: none;
+    padding: 10px 10px;
+    background-color: #5A38FD;
+    color: #FFFFFF;
+    font-size: 16px;
+    filter: drop-shadow(0px 4px 4px rgb(0, 0, 0,0.25));
+    transition: all 0.1s ease;
+
+  
+}
+button:hover {
+    opacity: 0.8;
+}
